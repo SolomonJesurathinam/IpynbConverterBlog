@@ -1,6 +1,16 @@
 import streamlit as st
 
 st.set_page_config(page_title="IpynbMobileViewer")
+hide_st_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+.reportview-container .main footer {visibility: hidden;} 
+</style>
+"""
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
 st.header("Juyter/Ipynb Mobile Viewer")
 st.text("This is an android application used to view Jupyter/Ipynb files in mobile")
 
