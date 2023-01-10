@@ -9,7 +9,7 @@ footer {visibility: hidden;}
 .reportview-container .main footer {visibility: hidden;} 
 </style>
 """
-#st.markdown(hide_st_style, unsafe_allow_html=True)
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 st.header(":blue[Juyter/Ipynb Mobile Viewer]")
 st.text("This is an android application used to view Jupyter/Ipynb files in mobile")
@@ -36,10 +36,5 @@ st.image("data/4.jpg",channels="BGR")
 st.markdown(no5, unsafe_allow_html=True)
 st.image("data/55.jpg",channels="BGR")
 
-
-HtmlFile = open("data/google3f727a4ee007d4cb.html", 'r', encoding='utf-8')
-source_code = HtmlFile.read()
-print(source_code)
-components.html(source_code)
 
 
