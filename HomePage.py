@@ -14,7 +14,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 st.header(":blue[Juyter/Ipynb Mobile Viewer]")
 st.text("This is an android application used to view Jupyter/Ipynb files in mobile")
 
-st.write("[Google Play Link](https://google.com)")
+st.write("[Google Play Link](https://play.google.com/store/apps/details?id=com.solomonj.ipynbviewer)")
 
 section = '<p style="font-family:sans-serif; color:Red; font-size: 25px;">Steps</p>'
 st.markdown(section,unsafe_allow_html=True)
